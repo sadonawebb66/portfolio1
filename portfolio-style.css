@@ -1,0 +1,35 @@
+@charset "utf-8";
+.container{
+	width:1020px;
+	margin:0 auto;
+	background-color:aqua;
+}
+header{
+	width:100%;
+	text-align:center;
+}
+.flex-container{
+	display:flex;
+	background-color:cadetblue;
+	flex-direction:row;
+	align-items:stretch;
+}
+.flex-container div{
+	background-color:aliceblue;
+	flex-grow:4;
+	height:135px;
+}
+
+.flex-container .flex-nav{
+	flex-grow:1;
+	flex-direction:column;
+}
+footer{
+	width:100%;
+	text-align:center;
+}
+@media (max-width:800px){
+	.flex-container {
+		flex-direction:column;
+	}
+}
