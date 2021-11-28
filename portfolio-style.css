@@ -15,7 +15,7 @@ header{
 }
  h1{
 	font-size: 30px;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-weight:400;
 	font-style:normal;
 	text-align: center;
@@ -24,6 +24,7 @@ header{
 nav{
 	width:100%;
 	text-align:center;
+	
 }
 nav ul{
 	list-styke-type: none;
@@ -75,4 +76,13 @@ nav a:active{
 	margin-left:100px;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 18px
+}
+img{
+	margin-left: 70px;
+	margin-bottom: 50px;
+}
+.portfolio-container{
+	width:1200px;
+	margin:0 auto;
+	text-align: center;
 }
