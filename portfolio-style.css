@@ -30,6 +30,7 @@ nav ul{
 	list-styke-type: none;
 	margin:0;
 	padding: 0;
+	list-style-type: none;
 }
 nav li{
 	display:inline;
@@ -42,7 +43,14 @@ footer{
 nav a:link {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	color:darkred; text-decoration:none;
-	margin-right:20px;
+	margin-right:0px;
+	text-align:center;
+	display:
+	width:100%;
+	padding:1em 0;
+	background-color:rgba(243,10,191,1.00);
+	border-right:2px solid white;
+	
 }
 p{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
@@ -62,7 +70,7 @@ nav a:active{
 .left{
 	width:200px;
 	float:left;
-	margin-top:30px;
+	margin-top:0px;
 	margin-bottom:30px;
 	margin-left:0px;
 	margin-right:60px;
@@ -78,11 +86,19 @@ nav a:active{
 	font-size: 18px
 }
 img{
-	margin-left: 70px;
-	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-right:30px;
+	margin-bottom: 60px;
+	margin-top:0px;
 }
 .portfolio-container{
 	width:1200px;
 	margin:0 auto;
 	text-align: center;
+}
+.contact-container{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	height:200px;
 }
